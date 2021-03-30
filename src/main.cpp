@@ -1,4 +1,4 @@
-#include <SFML/Window.hpp>
+#include <sfml/Window.hpp>
 
 int main()
 {
