@@ -16,7 +16,7 @@ endif()
 
 add_executable(sfml_platformer src/main.cpp)
 
-target_include_directories(sfml_platformer PRIVATE SYSTEM SFML/include)
+target_include_directories(sfml_platformer PRIVATE SYSTEM sfml/include)
 
 target_link_libraries(sfml_platformer sfml-graphics sfml-window sfml-system)
 
